@@ -3,12 +3,12 @@
 Requirements:
 
 pip install beautifulsoup4
-
+---
 
 Usage:
 
 randomCinema.py amount type openItems scoreThreshold
-
+---
 
 amount - Number of random items to get
 
