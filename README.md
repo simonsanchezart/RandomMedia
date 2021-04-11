@@ -7,8 +7,11 @@ pip install beautifulsoup4
 Usage:
 ---
 randomCinema.py amount type openItems scoreThreshold
+
 randomBook.py amount openItems scoreThreshold
+
 randomMusic.py amount openItems
+
 
 amount - Number of random items to get
 
