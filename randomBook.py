@@ -6,6 +6,7 @@ import webbrowser
 import time
 
 amount = int(sys.argv[1])
+print("yes")
 openItems = sys.argv[2]
 scoreThreshold = float(sys.argv[3])
 
