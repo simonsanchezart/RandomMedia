@@ -6,11 +6,10 @@ import webbrowser
 import time
 
 amount = int(sys.argv[1])
-print("yes")
 openItems = sys.argv[2]
 scoreThreshold = float(sys.argv[3])
 
-class BookItme():
+class BookItem():
     def __init__(self, name, link, score):
         self.name = name
         self.link = link
@@ -40,7 +39,7 @@ def GetRequest():
             itemLink = re.request.url
 
             if itemScore >= scoreThreshold:
-                validItem = BookItme(itemTitle, itemLink, itemScore)
+                validItem = BookItem(itemTitle, itemLink, itemScore)
                 break
     return validItem
 
